@@ -5,6 +5,7 @@ public class learnAbstract {
         scotty sc  =new scotty();
         sc.accelarate();
             sc.brakes();
+
     }
 
 

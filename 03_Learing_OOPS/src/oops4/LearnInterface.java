@@ -9,6 +9,7 @@ public class LearnInterface {
     }
 }
 interface Animal{
+    int leg = 4;
     void eat();
 void drink();
 }
@@ -34,5 +35,6 @@ class Monkey implements Animal,ped{
     @Override
     public void eat() {
         System.out.println("Monkey Is eating ");
+
     }
 }
